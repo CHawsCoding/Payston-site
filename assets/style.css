@@ -1,68 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Le Jour Serif";
-    src: url(./Le\ Jour\ Serif.ttf);
+  font-family: "Le Jour Serif";
+  src: url(./Le\ Jour\ Serif.ttf);
 }
 
-
 header {
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10px;
-    margin: 0px;
-    border: 0px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 0px;
+  border: 0px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 98%;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
 }
 
 h1 {
-    font-family: 'Le Jour Serif';
-    font-size: 40px;
-    margin: 0;
-    padding-left: 10px 20px;
+  font-family: "Le Jour Serif";
+  font-size: 40px;
+  margin: 0;
+  padding-left: 10px 20px;
+}
+
+h2 {
+  font-family: "Le Jour Serif";
+  font-size: 40px;
+  margin-bottom: 0;
+  padding-left: 10px 20px;
+  text-align: center;
+}
+
+.links-content-wrapper {
+  padding-bottom: 60px; /* Adjust this value based on the height of your footer */
+}
+.form-content-wrapper {
+  padding-bottom: 150px;
 }
 
 #contact_btn {
-    height: 60px;
-    font-family: 'Le Jour Serif';
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-    display: block;
-    background-color: #007BFF;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
+  height: 60px;
+  font-family: "Le Jour Serif";
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  background-color: #007bff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .custom-card-img {
-    width: 100%; 
-    height: 300px; 
-    object-fit: cover;
-    object-position: center top; 
-  }
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+}
 
+footer {
+  background-color: antiquewhite;
+  text-align: center;
+  font-family: "Le Jour Serif";
+  padding: 20px 10px;
+  margin: 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
-  footer {
-    background-color: antiquewhite;
-    text-align: center;
-    font-family: 'Le Jour Serif'; 
-    padding: 20px 10px;
-    margin: 0px;
-    position: fixed; 
-    left: 0;
-    right: 0;
-    bottom: 0; 
-  }
+.custom-input-height {
+  height: 100px; /* Adjust as needed */
+}
